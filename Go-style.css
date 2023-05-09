@@ -1,0 +1,439 @@
+* {
+  margin: 0px;
+}
+body {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+}
+.Nav-Bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 125, 156);
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-menu {
+  width: 25px;
+}
+.logo {
+  height: 2rem;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.section {
+  display: inline;
+  margin-top: 20px;
+}
+
+.section button {
+  height: 30px;
+  color: white;
+  border: 0;
+  margin-right: 40px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  cursor: pointer;
+  background-color: transparent;
+
+  align-items: center;
+}
+.hero {
+  display: flex;
+  color: white;
+  padding: 70px 24px 0px 170px;
+  background-color: rgb(8, 103, 126);
+  height: 400px;
+}
+.hero-content {
+  padding: 5px;
+  width: 800px;
+  margin-right: 0px;
+  line-height: 35px;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.baby {
+  margin-left: 100px;
+  margin-right: 0px;
+}
+.hero-ladder {
+  width: 170px;
+}
+.head {
+  display: block;
+  font-size: 39.2px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.button {
+  display: flex;
+  gap: 24px;
+}
+.button1,
+.button2 {
+  height: 50px;
+  background-color: rgb(253, 221, 0);
+  border-radius: 5px;
+  border-color: transparent;
+  width: 250px;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 24px;
+  height: 64px;
+}
+.button2 {
+  background-color: rgb(8, 103, 126);
+  color: white;
+  border-bottom-color: white;
+  border-color: white;
+  font-size: 24px;
+}
+.hero-foot {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+}
+.hero-last {
+  line-height: 17px;
+}
+.link {
+  color: white;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.box2 {
+  position: absolute;
+  background-color: #50b7e0;
+  height: 0%;
+}
+.center {
+  text-align: center;
+}
+.companies {
+  padding-top: 75px;
+  font-size: 36px;
+  font-weight: 500px;
+  padding-bottom: 20px;
+}
+.discribe {
+  padding: 10px 0px 25px 0px;
+  font-size: 16px;
+}
+.links-1 {
+  color: #50b7e0;
+  padding-left: 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.mnc {
+  background-color: white;
+  width: 179px;
+  height: 95px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.partners {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 130px;
+  margin-right: 130px;
+  row-gap: 15px;
+}
+.google {
+  width: 140px;
+  height: 49px;
+  padding: 22px;
+  margin-top: 10px;
+}
+.dropbox {
+  width: 90px;
+  height: 49px;
+  margin-top: 10px;
+  padding: 45px;
+}
+.background {
+  background-color: rgb(32, 34, 36);
+  margin-bottom: 150px;
+}
+.box3 {
+  background-color: rgb(45, 45, 45);
+  align-items: center;
+}
+.quote {
+  padding-left: 270px;
+  padding-top: 50px;
+  padding-right: 270px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  font-size: 21px;
+  line-height: 36px;
+}
+.author {
+  margin-left: 650px;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.try-go {
+  font-size: 36px;
+  padding: 50px 0px 30px 0px;
+  text-align: center;
+}
+.console {
+  width: 1163px;
+  height: 290px;
+  background-color: rgb(37, 52, 67);
+  text-align: left;
+  margin-left: 125px;
+  border-radius: 5px;
+}
+.cons {
+  padding: 10px;
+}
+.p1 {
+  padding: 20px 0px 20px 0px;
+}
+.p2 {
+  padding-left: 50px;
+}
+.p3 {
+  padding-bottom: 20px;
+}
+.output {
+  background-color: rgb(43, 45, 47);
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+.print {
+  padding: 5px 0px 10px 0px;
+}
+.input-1 {
+  background-color: rgb(32, 34, 36);
+  border-color: white;
+  color: white;
+  padding-right: 50px;
+  border-width: 1px;
+  height: 30px;
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.buttons {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button-s {
+  margin-left: 820px;
+}
+.input-2 {
+  color: rgb(80, 171, 183);
+  background-color: rgb(32, 34, 36);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: rgb(80, 171, 183);
+  cursor: pointer;
+  height: 30px;
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.input-2 :hover {
+  background-color: #50b7e0;
+}
+.heading {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+}
+.sub-heading {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  margin-left: 130px;
+  row-gap: 50px;
+}
+.possibility-logo {
+  width: 30px;
+  padding: 30px 0px 20px 10px;
+}
+.possibility-logo-1 {
+  width: 40px;
+  padding: 30px 0px 20px 10px;
+}
+.subcontainer-1 {
+  background-color: rgb(45, 45, 45);
+  width: 352px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.sub-container-main {
+  font-size: 20px;
+  padding: 0px 0px 30px 10px;
+}
+.sub-container-1-about {
+  padding: 0px 10px 10px 10px;
+}
+.sub-container-1-b {
+  background-color: rgb(32, 34, 36);
+  height: 190px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0px 10px;
+  border-style: solid;
+  border-color: rgb(46, 46, 46);
+  border-radius: 5px;
+}
+.possibility-link-container {
+  padding: 30px 0px 0px 10px;
+}
+.possibility-learn-more {
+  padding: 20px 0px 0px 10px;
+  color: rgb(80, 183, 224);
+}
+.sub-container-last {
+  padding-top: 100px;
+  text-align-last: center;
+}
+.possibility-more-use {
+  margin-top: 50px;
+  color: rgb(80, 183, 224);
+}
+.last-block {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 80px;
+}
+.last-block-1 {
+  width: 450px;
+  height: 280px;
+  border-right: 20px;
+  border-right-color: white;
+}
+.last-block-main {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.line {
+  height: 280px;
+}
+.last-block-sub {
+  padding: 0px 10px 20px 10px;
+}
+.last-block-buttons {
+  padding-left: 10px;
+}
+.last-block-buttons-1 {
+  background-color: rgb(0, 125, 156);
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 40px;
+  border-radius: 5px;
+  border: transparent;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.download-go {
+  background-color: rgb(32, 34, 36);
+  border: transparent;
+  color: rgb(12, 192, 237);
+  font-size: 16px;
+  cursor: pointer;
+}
+.last-block--2 {
+  margin-left: 40px;
+}
+.last-block-2 {
+  color: #aaacae;
+  font-size: 14px;
+}
+.last-block-2-main {
+  font-size: 16px;
+  padding-top: 15px;
+}
+.last-block--3 {
+  margin-left: 90px;
+}
+.footer-container {
+  display: grid;
+  padding: 50px 60px 50px 100px;
+  gap: 30px;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #253443;
+  border-top: 0.5px solid #adb5bd;
+}
+
+.f-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.f-column > p {
+  font-size: 14px;
+  cursor: pointer;
+}
+.f-column > p :hover {
+  text-decoration: underline;
+}
+
+#f-heading {
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+.last-footer {
+  background-color: #253443;
+  border-top: 0.01px solid #83939f;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  display: flex;
+  margin-top: 10px;
+}
+.footer-goopher {
+  width: 5rem;
+  align-self: flex-end;
+}
+.footer-google {
+  align-self: flex-end;
+  height: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 1.3rem;
+  margin-right: 15px;
+}
+.footer-left > p {
+  font-size: 14px;
+  padding: 20px 10px 20px 10px;
+}
+.footer-left > hr {
+  height: 25px;
+  margin-top: 17px;
+  margin-right: 10px;
+}
